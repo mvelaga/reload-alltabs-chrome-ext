@@ -1,10 +1,11 @@
 {
 	"name": "Reload all tabs",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A chrome extension to reload all open tabs",
 	"browser_action": {
 		"default_icon": "images/refresh.png"
 	},
-	"permissions": []
+	"background_page": "background.html",
+	"permissions": ["tabs"]
 }
 	
